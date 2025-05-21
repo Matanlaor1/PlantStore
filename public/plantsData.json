@@ -1,0 +1,154 @@
+{
+  "store": {
+    "name": "GreenThumb Plant Store",
+    "location": "123 Green Street, Plantville",
+    "contact": {
+      "phone": "123-456-7890",
+      "email": "info@greenthumb.com",
+      "website": "https://www.greenthumb.com"
+    },
+    "categories": [
+      {
+        "id": 1,
+        "name": "Indoor Plants",
+        "description": "Beautiful plants that thrive inside your home.",
+        "products": [
+          {
+            "id": 101,
+            "name": "Spider Plant",
+            "price": 15.99,
+            "description": "Easy-to-care-for indoor plant that purifies air.",
+            "image": "https://example.com/spider-plant.jpg",
+            "availability": true,
+            "rating": 4.5,
+            "stock": 50
+          },
+          {
+            "id": 102,
+            "name": "Snake Plant",
+            "price": 19.99,
+            "description": "A resilient plant that can survive with little sunlight.",
+            "image": "https://example.com/snake-plant.jpg",
+            "availability": true,
+            "rating": 4.8,
+            "stock": 30
+          },
+          {
+            "id": 103,
+            "name": "Peace Lily",
+            "price": 17.99,
+            "description": "A flowering indoor plant that improves air quality.",
+            "image": "https://example.com/peace-lily.jpg",
+            "availability": true,
+            "rating": 4.6,
+            "stock": 40
+          },
+          {
+            "id": 104,
+            "name": "ZZ Plant",
+            "price": 22.99,
+            "description": "Tolerant of low light and irregular watering.",
+            "image": "https://example.com/zz-plant.jpg",
+            "availability": true,
+            "rating": 4.7,
+            "stock": 25
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Outdoor Plants",
+        "description": "Perfect plants for your garden or outdoor space.",
+        "products": [
+          {
+            "id": 201,
+            "name": "Lavender",
+            "price": 10.99,
+            "description": "A fragrant plant known for its beautiful purple flowers.",
+            "image": "https://example.com/lavender.jpg",
+            "availability": true,
+            "rating": 4.3,
+            "stock": 60
+          },
+          {
+            "id": 202,
+            "name": "Rose Bush",
+            "price": 25.99,
+            "description": "Classic rose bush with vibrant blooms.",
+            "image": "https://example.com/rose-bush.jpg",
+            "availability": true,
+            "rating": 4.7,
+            "stock": 20
+          },
+          {
+            "id": 203,
+            "name": "Hydrangea",
+            "price": 21.99,
+            "description": "Lush flowering shrub with colorful blossoms.",
+            "image": "https://example.com/hydrangea.jpg",
+            "availability": true,
+            "rating": 4.5,
+            "stock": 35
+          },
+          {
+            "id": 204,
+            "name": "Boxwood",
+            "price": 18.99,
+            "description": "Evergreen shrub perfect for hedges and borders.",
+            "image": "https://example.com/boxwood.jpg",
+            "availability": true,
+            "rating": 4.2,
+            "stock": 28
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Succulents",
+        "description": "Low-maintenance plants that thrive in dry conditions.",
+        "products": [
+          {
+            "id": 301,
+            "name": "Aloe Vera",
+            "price": 12.99,
+            "description": "A succulent plant with soothing properties.",
+            "image": "https://example.com/aloe-vera.jpg",
+            "availability": true,
+            "rating": 4.6,
+            "stock": 40
+          },
+          {
+            "id": 302,
+            "name": "Echeveria",
+            "price": 8.99,
+            "description": "A colorful rosette-shaped succulent.",
+            "image": "https://example.com/echeveria.jpg",
+            "availability": true,
+            "rating": 4.4,
+            "stock": 55
+          },
+          {
+            "id": 303,
+            "name": "Jade Plant",
+            "price": 14.99,
+            "description": "Thick, woody succulent said to bring good luck.",
+            "image": "https://example.com/jade-plant.jpg",
+            "availability": true,
+            "rating": 4.5,
+            "stock": 45
+          },
+          {
+            "id": 304,
+            "name": "Hens and Chicks",
+            "price": 9.99,
+            "description": "Compact succulent that grows in clusters.",
+            "image": "https://example.com/hens-and-chicks.jpg",
+            "availability": true,
+            "rating": 4.3,
+            "stock": 38
+          }
+        ]
+      }
+    ]
+  }
+}
