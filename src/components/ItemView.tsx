@@ -1,3 +1,6 @@
+import { useCart } from "../context/CartContext";
+import { useNavigate } from "react-router";
+
 type ItemViewProps = {
   item: {
     id: number;
@@ -12,6 +15,9 @@ type ItemViewProps = {
 };
 
 export default function ItemView({ item }: ItemViewProps) {
+  const Navigate = useNavigate();
+  const { addToCart } = useCart();
+
   return (
     <div className="item-view">
       <h4>{item.name}</h4>
@@ -23,6 +29,21 @@ export default function ItemView({ item }: ItemViewProps) {
       <p>Availability: {item.availability ? "In Stock" : "Out of Stock"}</p>
       <p>Rating: {item.rating} / 5</p>
       <p>Stock: {item.stock}</p>
+      <button
+        className="add-to-cart-button"
+        onClick={() => {
+          addToCart(item);
+        }}
+      >
+        add to cart
+      </button>
+      <button
+        onClick={() => {
+          Navigate(`/item/${item.id}`);
+        }}
+      >
+        View Details
+      </button>
     </div>
   );
 }

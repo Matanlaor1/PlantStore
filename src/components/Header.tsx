@@ -1,4 +1,5 @@
 import { NavLink } from "react-router";
+import CartModal from "./Cart/CartModal";
 
 export default function Header() {
   return (
@@ -14,6 +15,9 @@ export default function Header() {
           <NavLink to="/Catalog" className="navbar-link">
             Catalog
           </NavLink>
+        </div>
+        <div className="navbar-cart">
+          <CartModal />
         </div>
       </div>
     </>
