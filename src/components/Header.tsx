@@ -6,7 +6,7 @@ export default function Header() {
     <>
       <div className="navbar">
         <div className="navbar-logo">
-          <h1>My Logo</h1>
+          <img src="public\images\plantStoreLogo.png"></img>
         </div>
         <div className="navbar-links">
           <NavLink to="/" className="navbar-link">
